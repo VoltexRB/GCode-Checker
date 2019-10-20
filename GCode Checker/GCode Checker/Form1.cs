@@ -396,6 +396,7 @@ namespace GCode_Checker
                 {
                     int selectionValue = value.SelectionStart;
                     value.Text = value.Text.Insert(value.SelectionStart, ks.ConvertToString(e.KeyCode));
+                    if (value.Text.Contains("NumPad")) value.Text = value.Text.Replace("NumPad", "");
                     value.SelectionStart = selectionValue+1;
                 }
             }
@@ -406,6 +407,20 @@ namespace GCode_Checker
                     int selectionValue = value.SelectionStart;
                     value.Text = value.Text.Remove(value.SelectionStart - 1, 1);
                     value.SelectionStart = selectionValue-1;
+                }
+            }
+        }
+
+        private void BT_OVERRIDE_Click(object sender, EventArgs e)
+        {
+            using (FileStream fs = new FileStream(presetPath, FileMode.Create, FileAccess.Write))
+            {
+                using (StreamWriter sw = new StreamWriter(fs))
+                {
+                    sw.WriteLine("X" + ":" + TB_BEDX.Text);
+                    sw.WriteLine("Y" + ":" + TB_BEDY.Text);
+                    sw.WriteLine("Bed" + ":" + TB_BED_TEMP.Text);
+                    sw.WriteLine("Head" + ":" + TB_HOTEND_TEMP.Text);
                 }
             }
         }

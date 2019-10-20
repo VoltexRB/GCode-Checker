@@ -98,6 +98,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.BT_OVERRIDE = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -193,6 +194,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.BT_OVERRIDE);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -882,6 +884,16 @@
             this.label31.Text = "Situaltional";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BT_OVERRIDE
+            // 
+            this.BT_OVERRIDE.Location = new System.Drawing.Point(233, 74);
+            this.BT_OVERRIDE.Name = "BT_OVERRIDE";
+            this.BT_OVERRIDE.Size = new System.Drawing.Size(64, 23);
+            this.BT_OVERRIDE.TabIndex = 32;
+            this.BT_OVERRIDE.Text = "Overwrite";
+            this.BT_OVERRIDE.UseVisualStyleBackColor = true;
+            this.BT_OVERRIDE.Click += new System.EventHandler(this.BT_OVERRIDE_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -990,6 +1002,7 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Button BT_OVERRIDE;
     }
 }
 
