@@ -18,5 +18,11 @@ This is a completely free project and will always be free. If you find any bugs,
 
 
 
+
+
+
+
+
 If you really want to support me, you can donate via Paypal but you really dont need to, thats why I put this thing so far down
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SC2252X6H543S&source=url)
