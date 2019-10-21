@@ -1,0 +1,10 @@
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\bin\Debug\GCode Checker.exe.config
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\bin\Debug\GCode Checker.exe
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\bin\Debug\GCode Checker.pdb
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode Checker.csprojAssemblyReference.cache
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode_Checker.Form1.resources
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode_Checker.Properties.Resources.resources
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode Checker.csproj.GenerateResource.cache
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode Checker.csproj.CoreCompileInputs.cache
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode Checker.exe
+D:\Ausbildung Lokal\Startprojekte VS\GCode Checker\GCode Checker\obj\Debug\GCode Checker.pdb
